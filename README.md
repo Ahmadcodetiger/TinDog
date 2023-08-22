@@ -1,2 +1,1 @@
-# TinDog
-Tindog web design  using html, css and bootsrap
+TinDog Starting Files

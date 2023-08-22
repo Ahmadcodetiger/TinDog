@@ -1,0 +1,143 @@
+body{
+    font-family: 'Montserrat';
+}
+#title{
+    background-color: #ff4c68;
+
+}
+h1{
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #fff;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+.main-img{
+   width: 300px;
+    transform : rotate(25deg);
+   position: absolute;
+}
+/* Navigation-Bar */
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.item{
+    text-align: center;
+    font-family: 'montserrat';
+}
+.icon{
+color: #ef8172;
+margin-bottom: 10px;
+padding: 5%;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+p{
+    color: #8f8f8f;
+}
+#features{
+    padding: 7% 15%;
+    position: relative;
+    background-color: #fff;
+    z-index: 1;
+   
+}
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+}
+.carousel-item{
+ padding: 7% 15%;
+}
+em{
+    color: #fff;
+}
+h2{
+    font-family: 'montserrat';
+    font-weight: bold;
+    color: #ffff;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+
+}
+.t-img{
+    width: 15%;
+    margin: 20px 2px 50px;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.btn-block{
+width: 100%;
+}.card{
+    text-align: center;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.p-col{
+padding: 3% 2%;
+}
+#pricing h2{
+    color: black;
+
+}
+@media (max-width:992px){
+    .main-img{
+    transform : rotate(0);
+   position: static;
+}
+#title{
+    text-align: center;
+}
+h1{
+    font-size: 3rem;
+    margin: 0 0 20px;
+}
+ .bt{
+ margin-bottom: 10px;
+
+ }
+}
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    color:#fff;
+    font-family: 'montserrat';
+    padding: 7% 15%;
+}
+#cta h3{
+   font-size: 3rem;
+    font-weight: 900;
+    margin: 10px 15px 10px;
+}
+#footer{
+    text-align: center;
+}
+.ff{
+    margin: 5% 15px 10px;
+}
+.bt{
+    margin: 20px 15px;
+}
+#footer p{
+
+    font-family: 'montserrat';
+    font-weight: bold;
+    margin: 0 5% 5%;
+}
